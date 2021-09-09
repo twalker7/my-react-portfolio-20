@@ -37,10 +37,11 @@ function Project(){
               return (
                 <li> 
                     <div className="projects">
-                    {project.title} 
-                    <img alt = {project.title} 
-                    key={project.title} 
-                    src={require(`../../assets/${i}.jpeg`).default}></img>
+                        {project.title} 
+                        <img alt = {project.title} 
+                        key={project.title} 
+                        src={require(`../../assets/${i}.jpeg`).default}> 
+                        </img>
                     </div>
                 </li>
             )
