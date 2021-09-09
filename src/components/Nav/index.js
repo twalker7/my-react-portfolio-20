@@ -1,35 +1,34 @@
 import React from 'react';
 
 
-function Nav(){
+function Nav(props){
     
     return(
-        <header>
-        <h2>
-        <a data-testid="link" href="/">
-           Thomas Walker<span role="img" aria-label="camera"> ☀️ </span>
-        </a>
-      </h2>
       <nav>
           <ul className="flex-row">
               <li>
-                  <a className="">
+                  <a className="" onClick={()=> props.setCurrentPage('home')} >
                       About Me
                   </a>
               </li>
+              <li>
+                  <a  onClick={()=> props.setCurrentPage('portfolio')}>
+                   Portfolio
+                  </a>
+              </li>   
               <li className="">
-            <a>
+            <a className=""  onClick={()=> props.setCurrentPage('contact')}>
               Contact
             </a>
             </li>
             <li>
-             <a className=""> 
+             <a className="" onClick={()=> props.setCurrentPage('resume')} > 
              Resume
              </a>
             </li>
           </ul>
       </nav>
-      </header> 
+    
     );
 }
 
