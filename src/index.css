@@ -39,3 +39,38 @@ li{
 a:hover {
   text-decoration: underline;
 }
+
+/* project thumbnails styling -- bootstrap implementation would be a good look*/
+
+.projects-box{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+border: black 5px;
+justify-content: space-around;
+width: 1000px;
+}
+
+.project{
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+
+.project-image{
+  height: 200px;
+  width:200px;
+  margin-top: 5px;
+
+}
+
+.contact-form{
+  border: black 5px solid;
+}
+
+.profile-image{
+  height: 400px;
+  width: 400px;
+  float: left;
+  margin-right: 15px;
+}

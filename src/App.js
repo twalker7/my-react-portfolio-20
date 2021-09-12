@@ -4,10 +4,10 @@ import './App.css';
 import Project from './components/Project';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import   {useState, useEffect} from 'react';
+import About from './components/About';
+import {useState, useEffect} from 'react';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -16,6 +16,8 @@ function App() {
   function changePage(){
   
      switch(currentPage){
+       case "home": 
+       return <About/>
        case "portfolio":
        return   <Project />
       
@@ -24,7 +26,7 @@ function App() {
 
       case "resume":
           return <Resume/>
-
+         
      }
   }
   return (

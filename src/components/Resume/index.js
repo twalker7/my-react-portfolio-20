@@ -1,10 +1,9 @@
 import React from 'react';
-import Nav from '../Nav';
 
-function Header(){
+function Resume(){
     return(
-        <Nav> </Nav>
+        <h1> What I have done </h1>
     );
 }
 
-export default Header;
+export default Resume;

@@ -3,20 +3,21 @@ import React from 'react';
 function Contact(props){
     return(
         <div>
-            <form>
+            <h1> Reach out</h1>
+            <form className="contact-form">
             <div>
-                    <label></label>
+                    <label>Name</label>
                    <input name="name" />
                 </div> 
                 <div>
-                    <label></label>
+                    <label>Email</label>
                    <input name="email"/>
                 </div> 
                 <div>
-                    <label></label>
+                    <label>Message</label>
                    <textarea defaultValue="" name="message"></textarea>
                 </div> 
-                <button type="submit"></button>
+                <button type="submit"> Send </button>
             </form>
         </div>
     );

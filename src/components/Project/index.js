@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-// import photos from '../../assets/app';
+
 
 
 
@@ -8,23 +8,24 @@ function Project(){
      // array of project objects  above return 
      const [projects] = useState([
          {title: "WeatherAll App",
-        link: "src/assets/teamproject1.jpeg",
-        //repo: ,
+        link: "https://twalker7.github.io/WeatherAll-pro/",
+        repo: "https://github.com/twalker7/WeatherAll-pro",
         //image: ,
         },
         {title: "Password Generator",
-            //link: ,
-            //repo: ,
+            link: "https://twalker7.github.io/03-passwordWiz/",
+            repo: "https://github.com/twalker7/03-passwordWiz" ,
             //image: ,
         },
-        {title: "Quiz App"
-            //link: ,
-            //repo: ,
+        {title: "Quiz App",
+            link: "https://twalker7.github.io/WeatherAll-pro/" ,
+            repo: "https://github.com/twalker7/04-QuizTime",
             //image: ,
         },
-        {title: "Paint-n-Sip "
-            //link: ,
-            //repo: ,
+        {
+            title: "Paint-n-Sip",
+            link:  "https://twalker7.github.io/HTeamL-Project/",
+            repo: "https://github.com/Narmstrongv/HTeamL-Project-2",
             //image: ,
         },
      ]);
@@ -32,16 +33,19 @@ function Project(){
        
         <div>
             <h2>Projects</h2>
-            <ul>
+            <ul className="projects-box">
               {projects.map((project, i)=>{
               return (
                 <li> 
-                    <div className="projects">
-                        {project.title} 
-                        <img alt = {project.title} 
+                    <div className="project">
+                        <h4><a href={project.link} target="_blank">{project.title}</a>  </h4>
+                        <p className="project-repo"> <a href={project.repo} target="_blank"> App Repository</a></p>
+                        <img className="project-image"
+                        alt = {project.title} 
                         key={project.title} 
                         src={require(`../../assets/${i}.jpeg`).default}> 
                         </img>
+                        
                     </div>
                 </li>
             )
