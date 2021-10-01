@@ -6,9 +6,8 @@ function About(){
             <img className="profile-image" src ={require(`../../assets/profile-photo.jpeg`).default}/>
 
             <h3> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
-                 dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            
+            My name is Thomas Walker and I am a software engineer. I have experience building programs in various programming languages such as Java, C++, and Python, as well as a full-stack web development portfolio that demonstrates my skills in building dynamic and user-friendly web applications. 
             </h3>
         </div>
     );
