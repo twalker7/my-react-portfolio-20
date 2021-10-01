@@ -8,7 +8,7 @@ function Header(props){
         <header>
         <h1>
         <a data-testid="link" href="/">
-           Thomas Walker<span role="img" aria-label="camera"> ☀️ </span>
+           Thomas Walker
         </a>
         
 

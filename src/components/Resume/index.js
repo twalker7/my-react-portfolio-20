@@ -2,7 +2,12 @@ import React from 'react';
 
 function Resume(){
     return(
-        <h1> What I have done </h1>
+        <div>
+           <br/>
+            <img id="resume" alt="resume-photo" src ={require(`../../assets/software-engineer-resume.png`).default} />
+        </div>
+        
+
     );
 }
 
