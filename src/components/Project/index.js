@@ -25,7 +25,7 @@ function Project(){
         {
             title: "Paint-n-Sip",
             link:  "https://twalker7.github.io/HTeamL-Project/",
-            repo: "https://github.com/Narmstrongv/HTeamL-Project-2",
+            repo: "https://github.com/twalker7/DIY-Paint-N-Sip",
             //image: ,
         },
      ]);
