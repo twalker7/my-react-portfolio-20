@@ -27,8 +27,7 @@ Node.js
 
 
 ## Usage 
-
-Launch this application at localhost:3000 by running 'npm start'
+Use the navigation bar to access the different page components of the porfolio
 
 ## Credits
 
