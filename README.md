@@ -5,7 +5,7 @@
 
 ![alt Insomnia console](src/assets/app-screenshot-resume.png)
 
-This is responsive portfolio application built with React.js
+A single-page application portfolio built with React.js, containing the following sections: About Me, Projects, Resume, and Contact. 
 
 ## Table of Contents
 
