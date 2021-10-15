@@ -19,7 +19,7 @@ A single-page application portfolio built with React.js, containing the followin
 
 
 ## Installation
-npm install  to install all dependencies 
+Execute 'npm install' in command line  to install all dependencies 
  ### Technologies Used:
 React.js
 Node.js
