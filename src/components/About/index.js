@@ -7,8 +7,7 @@ function About(){
 
             <h3> 
             
-            My name is Thomas Walker and I am a software engineer. I have experience building programs in various programming languages such as Java, C++, and Python, as well as a full-stack web development portfolio that demonstrates my skills in building dynamic and user-friendly web applications. 
-            </h3>
+            Full Stack Web Developer with experience in multiple programming languages and a passion for problem-solving. A chess teacher with strong communication skills and a collaborative spirit, experienced in handling and conveying complex technical concepts. Polished analytical skills for effective debugging and algorithm design.             </h3>
         </div>
     );
 }
