@@ -58,7 +58,8 @@ height: 1000px;
   width: 200px;
   margin: 10px;
   padding: 20px;
-  border: black 5px solid;
+  border: rgb(199, 184, 184) 5px solid;
+  border-radius: 5%;
   
 }
 
