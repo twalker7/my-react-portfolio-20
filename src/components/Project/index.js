@@ -40,11 +40,6 @@ function Project(){
                     <div className="project" id ={`project${i}`}>
                         <h4><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>  </h4>
                         <p className="project-repo"> <a href={project.repo} target="_blank" rel="noreferrer"> App Repository</a></p>
-                        <img className="project-image"
-                        alt = {project.title} 
-                        key={project.title} 
-                        src={require(`../../assets/${i}.jpeg`).default}> 
-                        </img>
                         
                     </div>
                 </li>
@@ -58,3 +53,14 @@ function Project(){
 
 
 export default Project; 
+
+
+/* 
+removed code from returned jsx: 
+<img className="project-image"
+                        alt = {project.title} 
+                        key={project.title} 
+                        src={require(`../../assets/${i}.jpeg`).default}> 
+                        </img>
+                        
+*/
