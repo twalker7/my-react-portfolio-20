@@ -37,7 +37,7 @@ function Project(){
               {projects.map((project, i)=>{
               return (
                 <li> 
-                    <div className="project">
+                    <div className="project" id ={`project${i}`}>
                         <h4><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>  </h4>
                         <p className="project-repo"> <a href={project.repo} target="_blank" rel="noreferrer"> App Repository</a></p>
                         <img className="project-image"

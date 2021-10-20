@@ -85,3 +85,38 @@ height: 1000px;
   height: 800px;
   width: 600px;
 }
+
+
+/*projects' background images */
+
+#project1{
+  background-image: url(assets/0.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+
+}
+
+#project2{
+  background-image: url(assets/1.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+ 
+}
+
+#project3{
+  background-image: url(assets/2.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+
+}
+
+#project4{
+  background-image: url(assets/3.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+  
+}
