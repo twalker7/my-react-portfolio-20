@@ -6,15 +6,15 @@ function Contact(props){
             <h2 className="component-header"> Reach out</h2>
             <form className="contact-form">
             <div>
-                    <label>Name</label> <br/>
+                    <label className="form-labels">Name</label> <br/>
                    <input  className="form-field" name="name" />
                 </div> 
                 <div>
-                    <label>Email</label> <br/>
+                    <label className="form-labels">Email</label> <br/>
                    <input className="form-field" name="email"/>
                 </div> 
                 <div>
-                    <label>Message</label> <br/>
+                    <label className="form-labels">Message</label> <br/>
                    <textarea defaultValue="" name="message" className="message-field"></textarea>
                 </div> 
                 <button type="submit"> Send </button>

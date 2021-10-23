@@ -10,23 +10,23 @@ function Project(){
          {title: "WeatherAll App",
         link: "https://twalker7.github.io/WeatherAll-pro/",
         repo: "https://github.com/twalker7/WeatherAll-pro",
-        //image: ,
+        //description: ,
         },
         {title: "Password Generator",
             link: "https://twalker7.github.io/03-passwordWiz/",
             repo: "https://github.com/twalker7/03-passwordWiz" ,
-            //image: ,
+            //description: ,
         },
         {title: "Quiz App",
             link: "https://twalker7.github.io/WeatherAll-pro/" ,
             repo: "https://github.com/twalker7/04-QuizTime",
-            //image: ,
+            //description: ,
         },
         {
             title: "Paint-n-Sip",
             link:  "https://twalker7.github.io/HTeamL-Project/",
             repo: "https://github.com/twalker7/DIY-Paint-N-Sip",
-            //image: ,
+            //description: ,
         },
      ]);
     return(
@@ -40,7 +40,7 @@ function Project(){
                     <div className="project" id ={`project${i + 1}`}>
                         <h4><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>  </h4>
                         <h6><p className="project-repo"> <a href={project.repo} target="_blank" rel="noreferrer"> Repository Link</a></p> </h6>
-                        <p className = "project-description"> lorem ;</p>
+                        <p className = "project-description"> project description project description project description project description project description project description </p>
                     </div>
                 </li>
             )

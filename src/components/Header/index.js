@@ -6,13 +6,13 @@ function Header(props){
     return(
         
         <header>
-        <h1>
-        <a data-testid="link" href="/">
+        <h1 className="component-header">
            Thomas Walker
-        </a>
-        
-
+           <p className = "subheader "> Full Stack Developer (MERN)</p>
+           <p className = "subheader "> Java, MySQL, Python, C++, TypeScript </p>
+       
       </h1>
+      
       <h2>
         <Nav setCurrentPage = {props.setCurrentPage} > </Nav>
       </h2>
