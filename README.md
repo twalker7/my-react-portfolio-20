@@ -3,7 +3,7 @@
 
 ## Description 
 
-![alt Insomnia console](src/assets/software-engineer-resume-thomaswalker.jpeg)
+![alt Insomnia console](src/assets/app-screenshot-resume2.png)
 
 
 A single-page application portfolio built with React.js, containing the following sections: About Me, Projects, Resume, and Contact. 
