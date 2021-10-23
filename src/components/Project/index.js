@@ -40,7 +40,7 @@ function Project(){
                     <div className="project" id ={`project${i + 1}`}>
                         <h4><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>  </h4>
                         <h6><p className="project-repo"> <a href={project.repo} target="_blank" rel="noreferrer"> Repository Link</a></p> </h6>
-                        <h6> <p> lorem ;</p></h6>
+                        <p className = "project-description"> lorem ;</p>
                     </div>
                 </li>
             )
