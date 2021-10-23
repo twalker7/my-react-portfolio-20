@@ -3,7 +3,7 @@ import React from 'react';
 function About(){
     return(
         <div>
-            <img className="profile-image" src ={require(`../../assets/professional-thumbnail-potential.jpg`).default}/>
+            <img className="profile-image" src ={require(`../../assets/professional-thumbnail-potential.jpg`).default} alt="headshot"/>
            
             <h4> 
             

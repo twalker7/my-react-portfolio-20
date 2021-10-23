@@ -32,7 +32,7 @@ function Project(){
     return(
        
         <div>
-            <h2>Projects</h2>
+            <h2 className="component-header">Projects</h2>
             <ul className="projects-box">
               {projects.map((project, i)=>{
               return (
@@ -40,7 +40,7 @@ function Project(){
                     <div className="project" id ={`project${i + 1}`}>
                         <h4><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>  </h4>
                         <h6><p className="project-repo"> <a href={project.repo} target="_blank" rel="noreferrer"> Repository Link</a></p> </h6>
-                        
+                        <h6> <p> lorem ;</p></h6>
                     </div>
                 </li>
             )

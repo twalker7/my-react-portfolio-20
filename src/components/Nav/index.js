@@ -7,22 +7,22 @@ function Nav(props){
       <nav>
           <ul className="flex-row">
               <li>
-                  <a className="" onClick={()=> props.setCurrentPage('home')} href={() => false} >
+                  <a className="component-header" onClick={()=> props.setCurrentPage('home')} href={() => false} >
                       About Me
                   </a>
               </li>
               <li>
-                  <a  onClick={()=> props.setCurrentPage('portfolio')} href={() => false}>
+                  <a  className="component-header" onClick={()=> props.setCurrentPage('portfolio')} href={() => false}>
                    Portfolio
                   </a>
               </li>   
-              <li className="">
-            <a className=""  onClick={()=> props.setCurrentPage('contact')} href={() => false}>
+              <li>
+            <a className="component-header"  onClick={()=> props.setCurrentPage('contact')} href={() => false}>
               Contact
             </a>
             </li>
             <li>
-             <a className="" onClick={()=> props.setCurrentPage('resume')} href={() => false}> 
+             <a className="component-header" onClick={()=> props.setCurrentPage('resume')} href={() => false}> 
              Resume
              </a>
             </li>

@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import About from './components/About';
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -18,6 +18,7 @@ function App() {
      switch(currentPage){
        case "home": 
        return <About/>
+
        case "portfolio":
        return   <Project />
       
@@ -26,6 +27,8 @@ function App() {
 
       case "resume":
           return <Resume/>
+      default:
+          return
          
      }
   }
