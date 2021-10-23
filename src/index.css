@@ -68,18 +68,12 @@ div.project:hover{
  
 }
 
-.project-image{
-  height: 200px;
-  width:200px;
-  margin-top: 5px;
-
-}
 
 .contact-form{
   border: #c7b8b8 5px solid;
   border-radius: 10%;
-  height: 200px;
-  width: 200px;
+ 
+  width: 250px;
 }
 
 .profile-image{
@@ -126,5 +120,15 @@ div.project:hover{
   background-color: black ;
   background-size: cover;
   height: 200px;
+  
+}
+
+.form-field{
+  margin: 5px;
+  width: 200px;
+}
+
+.message-field{
+  width: 200px;
   
 }
