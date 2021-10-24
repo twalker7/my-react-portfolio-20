@@ -12,7 +12,7 @@ function Project(){
         repo: "https://github.com/twalker7/WeatherAll-pro",
         description: "Fetches weather information from any city in the United States and returns it to a user-friendly front end." ,
         },
-        {title: "Password Wiz",
+        {title: "PasswordWiz",
             link: "https://twalker7.github.io/03-passwordWiz/",
             repo: "https://github.com/twalker7/03-passwordWiz" ,
             description: "Prompts users for specific constraints and returns a password string that adheres to each specification selected.",
@@ -24,7 +24,7 @@ function Project(){
         },
         {
             title: "Paint-n-Sip",
-            link:  "https://twalker7.github.io/HTeamL-Project/",
+            link:  "https://twalker7.github.io/DIY-Paint-N-Sip/",
             repo: "https://github.com/twalker7/DIY-Paint-N-Sip",
             description: "Assists users in the execution of a 'Paint and Sip' gathering event" ,
         },
