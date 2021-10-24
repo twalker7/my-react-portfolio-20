@@ -71,7 +71,6 @@ div.project:hover{
 .contact-form{
   border: #c7b8b8 5px solid;
   border-radius: 10%;
- 
   width: 250px;
 }
 
@@ -122,6 +121,16 @@ div.project:hover{
   
 }
 
+#project5{
+  background-image: url(assets/4.jpeg) ;
+  background-color: black ;
+  background-size: cover;
+  height: 200px;
+  
+}
+
+
+
 .form-field .message-field{
   margin: 5px;
   width: 200px;
@@ -144,6 +153,7 @@ div.project:hover{
 .project-description{
   font-size: small;
   color: #948155;
+  background-color: white;
 }
 
 .about-description{
