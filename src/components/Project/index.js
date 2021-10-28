@@ -18,7 +18,7 @@ function Project(){
             description: "Prompts users for specific constraints and returns a password string that adheres to each specification selected.",
         },
         {title: "Quiz App",
-            link: "https://twalker7.github.io/WeatherAll-pro/" ,
+            link: "https://twalker7.github.io/04-QuizTime/" ,
             repo: "https://github.com/twalker7/04-QuizTime",
             description: "Administers a quiz that takes users through a set of 7 multiple choice questions, with buttons for selection.",
         },
