@@ -165,3 +165,11 @@ div.project:hover{
 .form-labels{
   color: #FFF3D9;
 }
+
+@media only screen and (max-width: 600px) {
+ 
+  #resume{
+    width: 400px;
+
+  }
+}
