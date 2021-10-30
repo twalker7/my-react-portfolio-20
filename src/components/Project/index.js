@@ -2,9 +2,13 @@ import React, {useState} from 'react';
 
 
 
-
-
 function Project(){
+
+    if(window.innerWidth < 500){
+        alert('turn screen horizontally to view Projects section');
+    }
+    
+
      // array of project objects  above return 
      const [projects] = useState([
          {title: "WeatherAll App",
@@ -35,6 +39,7 @@ function Project(){
             description: "An e-commerce website for charcuterie boards. Users are able to customize boards for specific dietary restrictions." ,
         },
      ]);
+
     return(
        
         <div>
