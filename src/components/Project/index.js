@@ -64,14 +64,3 @@ function Project(){
 
 
 export default Project; 
-
-
-/* 
-removed code from returned jsx: 
-<img className="project-image"
-                        alt = {project.title} 
-                        key={project.title} 
-                        src={require(`../../assets/${i}.jpeg`).default}> 
-                        </img>
-                        
-*/
