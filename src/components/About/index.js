@@ -18,15 +18,16 @@ function About(){
                 <Card.Title>
                     Luhn Formula Credit Card Validator
                 </Card.Title>
-                <Card.Text style={{color: "red"}}> text sample lorem lorem ipsum baby </Card.Text>
+                <Card.Text style={{fontSize:"10px"}}>
+               
+                </Card.Text>
             </Card.Body>
             <Card.Body>
                 <Card.Title>
                     Code Snippet 2
                 </Card.Title>
-                <Card.Text style={{color: "red"}}> text sample lorem lorem ipsum baby </Card.Text>
-            </Card.Body>
-
+                <Card.Text style={{color: "red", fontSize:"10px"}}> text sample lorem lorem ipsum baby </Card.Text>
+            </Card.Body>        
         </Card>
         </div>
     );
