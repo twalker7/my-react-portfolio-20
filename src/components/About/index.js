@@ -1,9 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card} from 'react-bootstrap';
+import {Card, CardGroup, Row} from 'react-bootstrap';
 function About(){
     return(
         <div>
+            <Row> 
+
+            </Row>
             <h2 className="component-header"> 
             About
             </h2>
@@ -13,22 +16,28 @@ function About(){
             
             Full Stack Web Developer with experience in multiple programming languages and a passion for problem-solving. A chess teacher with strong communication skills and a collaborative spirit, experienced in handling and conveying complex technical concepts. Polished analytical skills for effective debugging and algorithm design.             
             </h6>
-        <Card style={{color : "#000", width: "400px" }}>
-            <Card.Body>
-                <Card.Title>
-                    Luhn Formula Credit Card Validator
-                </Card.Title>
-                <Card.Text style={{fontSize:"10px"}}>
-               
-                </Card.Text>
-            </Card.Body>
-            <Card.Body>
-                <Card.Title>
-                    Code Snippet 2
-                </Card.Title>
-                <Card.Text style={{color: "red", fontSize:"10px"}}> text sample lorem lorem ipsum baby </Card.Text>
-            </Card.Body>        
-        </Card>
+        <CardGroup style={{color : "#000" }}>
+            <Card style={{ width: "400px" }}>
+                <Card.Body>
+                    <Card.Title>
+                        Luhn Formula Credit Card Validator
+                    </Card.Title>
+                    <Card.Img src ={require(`../../assets/luhn-formula-credit-card-validator.jpeg`).default} alt="code snippet"/>
+                    <Card.Text style={{fontSize:"10px"}}>
+                    text area
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card>
+                <Card.Body>
+                    <Card.Title>
+                        Code Snippet 2
+                    </Card.Title>
+                    <Card.Img src="https://picsum.photos/200" alt="code snippet"/>
+                    <Card.Text style={{color: "red", fontSize:"10px"}}> text sample lorem lorem ipsum baby </Card.Text>
+                </Card.Body>        
+            </Card>
+        </CardGroup>
         </div>
     );
 }
