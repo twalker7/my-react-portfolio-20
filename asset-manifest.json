@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa08bb2b.chunk.css",
-    "main.js": "/static/js/main.ede484d6.chunk.js",
-    "main.js.map": "/static/js/main.ede484d6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8d151d60.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8d151d60.js.map",
-    "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.8f067431.chunk.js": "/static/js/2.8f067431.chunk.js",
-    "static/js/2.8f067431.chunk.js.map": "/static/js/2.8f067431.chunk.js.map",
-    "static/js/3.33d1ce3e.chunk.js": "/static/js/3.33d1ce3e.chunk.js",
-    "static/js/3.33d1ce3e.chunk.js.map": "/static/js/3.33d1ce3e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.fa08bb2b.chunk.css.map": "/static/css/main.fa08bb2b.chunk.css.map",
-    "static/js/2.8f067431.chunk.js.LICENSE.txt": "/static/js/2.8f067431.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/4.47d9ae90.jpeg",
-    "static/media/professional-thumbnail-potential.jpg": "/static/media/professional-thumbnail-potential.2b1db310.jpg",
-    "static/media/software-engineer-resume-thomaswalker.jpeg": "/static/media/software-engineer-resume-thomaswalker.1738abaa.jpeg"
+    "main.css": "/twalker7/my-react-portfolio-20/static/css/main.7b0b377f.chunk.css",
+    "main.js": "/twalker7/my-react-portfolio-20/static/js/main.ede484d6.chunk.js",
+    "main.js.map": "/twalker7/my-react-portfolio-20/static/js/main.ede484d6.chunk.js.map",
+    "runtime-main.js": "/twalker7/my-react-portfolio-20/static/js/runtime-main.b6a82d2c.js",
+    "runtime-main.js.map": "/twalker7/my-react-portfolio-20/static/js/runtime-main.b6a82d2c.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/twalker7/my-react-portfolio-20/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.8f067431.chunk.js": "/twalker7/my-react-portfolio-20/static/js/2.8f067431.chunk.js",
+    "static/js/2.8f067431.chunk.js.map": "/twalker7/my-react-portfolio-20/static/js/2.8f067431.chunk.js.map",
+    "static/js/3.33d1ce3e.chunk.js": "/twalker7/my-react-portfolio-20/static/js/3.33d1ce3e.chunk.js",
+    "static/js/3.33d1ce3e.chunk.js.map": "/twalker7/my-react-portfolio-20/static/js/3.33d1ce3e.chunk.js.map",
+    "index.html": "/twalker7/my-react-portfolio-20/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/twalker7/my-react-portfolio-20/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.7b0b377f.chunk.css.map": "/twalker7/my-react-portfolio-20/static/css/main.7b0b377f.chunk.css.map",
+    "static/js/2.8f067431.chunk.js.LICENSE.txt": "/twalker7/my-react-portfolio-20/static/js/2.8f067431.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/twalker7/my-react-portfolio-20/static/media/4.47d9ae90.jpeg",
+    "static/media/professional-thumbnail-potential.jpg": "/twalker7/my-react-portfolio-20/static/media/professional-thumbnail-potential.2b1db310.jpg",
+    "static/media/software-engineer-resume-thomaswalker.jpeg": "/twalker7/my-react-portfolio-20/static/media/software-engineer-resume-thomaswalker.1738abaa.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d151d60.js",
+    "static/js/runtime-main.b6a82d2c.js",
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.8f067431.chunk.js",
-    "static/css/main.fa08bb2b.chunk.css",
+    "static/css/main.7b0b377f.chunk.css",
     "static/js/main.ede484d6.chunk.js"
   ]
 }
