@@ -26,7 +26,7 @@ header{
 ul{
   /*remove bullets from list items*/
   list-style-type: none; 
-  background-color: yellow;
+  
 }
 
 /* nav element spacing through li margins  */
@@ -184,4 +184,8 @@ div.project:hover{
 
 .code-snippet-title{
  font-size: 15px !important;
+}
+
+.header-element{
+  background-color: #A1CCA5;
 }
