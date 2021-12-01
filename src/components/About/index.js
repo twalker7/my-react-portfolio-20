@@ -19,22 +19,22 @@ function About(){
         <CardGroup style={{color : "#000" }} >
             <Card style={{ width: "400px" }}>
                 <Card.Body className="code-snippet">
-                    <Card.Title>
-                        Luhn Formula Credit Card Validator
+                    <Card.Title className="code-snippet-title" >
+                     Credit Card Validator (Luhn Formula)
                     </Card.Title>
                     <Card.Img src ={require(`../../assets/luhn-formula-credit-card-validator.jpeg`).default} alt="code snippet"/>
                     <Card.Text style={{fontSize:"10px"}}>
-                    text area
+                    A program that utilizes the Luhn formula to validate credit card numbers
                     </Card.Text>
                 </Card.Body>
             </Card>
             <Card >
                 <Card.Body className="code-snippet">
-                    <Card.Title >
+                    <Card.Title className="code-snippet-title" >
                         Palindrome Detector
                     </Card.Title>
                     <Card.Img src ={require(`../../assets/palindrome-code-snippet.jpeg`).default} alt="code snippet"/>
-                    <Card.Text style={{color: "red", fontSize:"10px"}}> text sample lorem lorem ipsum baby </Card.Text>
+                    <Card.Text style={{fontSize:"10px"}}> A palindrome detection program that takes four strings and returns the ammount of are palindromes among them. </Card.Text>
                 </Card.Body>        
             </Card>
         </CardGroup>
