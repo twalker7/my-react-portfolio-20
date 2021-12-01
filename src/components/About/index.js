@@ -16,9 +16,9 @@ function About(){
             
             Full Stack Web Developer with experience in multiple programming languages and a passion for problem-solving. A chess teacher with strong communication skills and a collaborative spirit, experienced in handling and conveying complex technical concepts. Polished analytical skills for effective debugging and algorithm design.             
             </h6>
-        <CardGroup style={{color : "#000" }}>
+        <CardGroup style={{color : "#000" }} >
             <Card style={{ width: "400px" }}>
-                <Card.Body>
+                <Card.Body className="code-snippet">
                     <Card.Title>
                         Luhn Formula Credit Card Validator
                     </Card.Title>
@@ -28,12 +28,12 @@ function About(){
                     </Card.Text>
                 </Card.Body>
             </Card>
-            <Card>
-                <Card.Body>
-                    <Card.Title>
-                        Code Snippet 2
+            <Card >
+                <Card.Body className="code-snippet">
+                    <Card.Title >
+                        Palindrome Detector
                     </Card.Title>
-                    <Card.Img src="https://picsum.photos/200" alt="code snippet"/>
+                    <Card.Img src ={require(`../../assets/palindrome-code-snippet.jpeg`).default} alt="code snippet"/>
                     <Card.Text style={{color: "red", fontSize:"10px"}}> text sample lorem lorem ipsum baby </Card.Text>
                 </Card.Body>        
             </Card>
