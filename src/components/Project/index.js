@@ -1,5 +1,8 @@
 import React, {useState} from 'react';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Card, CardGroup, Row} from 'react-bootstrap';
+
 
 
 function Project(){
@@ -57,6 +60,29 @@ function Project(){
             )
           })}  
             </ul>
+            <h2 style={{color : "#FFF3D9" }} > Code Snippets </h2> 
+            <CardGroup style={{color : "#000" }} >
+            <Card style={{ width: "400px" }}>
+                <Card.Body className="code-snippet">
+                    <Card.Title className="code-snippet-title" >
+                     Credit Card Validator (Luhn Formula)
+                    </Card.Title>
+                    <Card.Img src ={require(`../../assets/luhn-formula-credit-card-validator.jpeg`).default} alt="code snippet"/>
+                    <Card.Text style={{fontSize:"10px"}}>
+                    A program that utilizes the Luhn formula to validate credit card numbers
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+            <Card >
+                <Card.Body className="code-snippet">
+                    <Card.Title className="code-snippet-title" >
+                        Palindrome Detector
+                    </Card.Title>
+                    <Card.Img src ={require(`../../assets/palindrome-code-snippet.jpeg`).default} alt="code snippet"/>
+                    <Card.Text style={{fontSize:"10px"}}> A palindrome detection program that takes four strings and returns the ammount of are palindromes among them. </Card.Text>
+                </Card.Body>        
+            </Card>
+        </CardGroup>
             
         </div>
     );
