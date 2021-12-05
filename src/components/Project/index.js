@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card, CardGroup, Row} from 'react-bootstrap';
+import {Container, Card, CardGroup, Row, Col} from 'react-bootstrap';
 
 
 
@@ -46,6 +46,8 @@ function Project(){
     return(
        
         <div>
+            <Container fluid>
+                <Row>
             <h2 className="component-header">Projects</h2>
             <ul className="projects-box">
               {projects.map((project, i)=>{
@@ -60,30 +62,41 @@ function Project(){
             )
           })}  
             </ul>
+            </Row>
+            <Row>
             <h2 style={{color : "#FFF3D9" }} > Code Snippets </h2> 
-            <CardGroup style={{color : "#000" }} >
-            <Card style={{ width: "400px" }}>
-                <Card.Body className="code-snippet">
-                    <Card.Title className="code-snippet-title" >
-                     Credit Card Validator (Luhn Formula)
-                    </Card.Title>
-                    <Card.Img src ={require(`../../assets/luhn-formula-credit-card-validator.jpeg`).default} alt="code snippet"/>
-                    <Card.Text style={{fontSize:"10px"}}>
-                    A program that utilizes the Luhn formula to validate credit card numbers
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-            <Card >
-                <Card.Body className="code-snippet">
-                    <Card.Title className="code-snippet-title" >
-                        Palindrome Detector
-                    </Card.Title>
-                    <Card.Img src ={require(`../../assets/palindrome-code-snippet.jpeg`).default} alt="code snippet"/>
-                    <Card.Text style={{fontSize:"10px"}}> A palindrome detection program that takes four strings and returns the ammount of are palindromes among them. </Card.Text>
-                </Card.Body>        
-            </Card>
-        </CardGroup>
-            
+            </Row>
+            <Row>
+                <Col></Col>
+                <Col>
+            <CardGroup style={{color : "#000", width: "800px" }} >
+                <Card className="code-snippet-card" >
+                    <Card.Body className="code-snippet-body">
+                        <Card.Title className="code-snippet-title" >
+                        Credit Card Validator (Luhn Formula)
+                        </Card.Title>
+                        <Card.Img className="code-snippet-image" src ={require(`../../assets/luhn-formula-credit-card-validator.jpeg`).default} alt="code snippet"/>
+                        <Card.Text style={{fontSize:"10px"}}>
+                        A program that utilizes the Luhn formula to validate credit card numbers
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <Card className="code-snippet-card">
+                    <Card.Body className="code-snippet-body">
+                        <Card.Title className="code-snippet-title" >
+                            Palindrome Detector
+                        </Card.Title>
+                        <Card.Img className="code-snippet-image" src ={require(`../../assets/palindrome-code-snippet.jpeg`).default} alt="code snippet"/>
+                        <Card.Text style={{fontSize:"10px"}}> A palindrome detection program that takes four strings and returns the ammount of are palindromes among them. </Card.Text>
+                    </Card.Body>        
+                </Card>
+                
+            </CardGroup>
+            </Col>
+                <Col></Col>
+            </Row>
+            </Container>
+          
         </div>
     );
 }
