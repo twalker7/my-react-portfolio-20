@@ -65,6 +65,8 @@ height: 1000px;
 
 div.project:hover{
   opacity: .7;
+  
+ 
  
 }
 
@@ -181,10 +183,6 @@ div.project:hover{
   background-color: #A1CCA5;
 }
 
-.about-description-container{
-  border: 5px solid black; 
-
-}
 
 
 
@@ -192,18 +190,46 @@ div.project:hover{
 /* Media Query Section for Responsiveness */
 
 @media only screen and (max-width: 600px) {
- 
+ /*resume component */
   #resume{
     width: 500px;
 
   }
+
+  /*project component */
   .project{
    margin: 0px;
   }
 
   .code-snippet-image{
-    width: 10px;
-    height: 700px;
-    border: red 5px solid;
+    width: 100px;
+    height: 400px;
+    margin: 8px;
+    
+
   }
+  .card-group{
+    width: 400px !important ;
+  
+    
+  }
+  .code-snippet-card{
+    width: 380px;
+    
+  }
+
+  /*about component */
+
+
+  .about-description{
+    width: 200px;
+    margin: 80px;
+   
+  }
+
+  .profile-image{
+    width: 200px;
+    height:250px;
+  }
+
 }

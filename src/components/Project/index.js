@@ -7,10 +7,10 @@ import {Container, Card, CardGroup, Row, Col} from 'react-bootstrap';
 
 function Project(){
 
-    if(window.innerWidth < 500){
+   /* if(window.innerWidth < 500){
         alert('turn screen horizontally to view Projects section');
     }
-    
+    */
 
      // array of project objects  above return 
      const [projects] = useState([
@@ -69,7 +69,7 @@ function Project(){
             <Row>
                 <Col></Col>
                 <Col>
-            <CardGroup style={{color : "#000", width: "800px" }} >
+            <CardGroup className="card-group" style={{color : "#000", width: "800px" }} >
                 <Card className="code-snippet-card" >
                     <Card.Body className="code-snippet-body">
                         <Card.Title className="code-snippet-title" >
