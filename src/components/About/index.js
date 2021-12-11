@@ -27,6 +27,7 @@ function About(){
                  </h6>  
            </div>
          </Row>
+         <Row> <h3> 3-Card role description goes below here : </h3> </Row>
         </div>
     );
 }

@@ -135,7 +135,6 @@ div.project:hover{
 }
 
 
-
 .form-field .message-field{
   margin: 5px;
   width: 200px;
@@ -169,8 +168,6 @@ div.project:hover{
   color: #FFF3D9;
 }
 
-
-
 .code-snippet-body{
  background-color: #FFF3D9;
 }
@@ -184,7 +181,11 @@ div.project:hover{
 }
 
 
-
+.about-description{
+  width: 800px;
+  margin: 80px;
+ 
+}
 
 
 /* Media Query Section for Responsiveness */
