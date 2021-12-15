@@ -187,6 +187,13 @@ div.project:hover{
  
 }
 
+.fullstack-list-item{
+  color: black;
+}
+
+.programmer-list-item{
+  color: black; 
+}
 
 /* Media Query Section for Responsiveness */
 

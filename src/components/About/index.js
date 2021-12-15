@@ -27,7 +27,34 @@ function About(){
                  </h6>  
            </div>
          </Row>
-         <Row> <h3> 3-Card role description goes below here : </h3> </Row>
+         <Row> 
+             <h3> 3 Role Descriptions </h3>
+            <CardGroup style={{color:"black"}}> 
+                <Card className="full-stack-developer" >
+                    <Card.Title > Full Stack Developer </Card.Title>
+                    <Card.Body >
+                        <ul>
+                            <li className="fullstack-list-item"> abc </li>
+                            <li className="fullstack-list-item"> abc </li>
+                            <li className="fullstack-list-item"> abc </li>
+                            <li className="fullstack-list-item"> abc </li>
+                           
+                            
+                            
+                            
+                        </ul>
+                    </Card.Body>
+                </Card>
+                <Card className="programmer">
+                    <Card.Title> Programmer </Card.Title>
+                </Card>
+                <Card className="consultant ">
+                    <Card.Title> Consultant </Card.Title>
+
+                </Card>
+                
+            </CardGroup>
+        </Row>
         </div>
     );
 }
