@@ -3,7 +3,7 @@ import React from 'react';
 function Contact(props){
     return(
         <div>
-            <h2 className="component-header"> Contact Me With the Links Below! </h2>
+            <h2 className="component-header"> Get In Touch With Me Using the Links Below! </h2>
            
         </div>
     );

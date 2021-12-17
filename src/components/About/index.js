@@ -27,7 +27,12 @@ function About(){
                  </h6>  
            </div>
          </Row>
-         <Row> 
+         
+        </div>
+    );
+}
+/* Temporarily removed 3-card description of duties -- withheld for mvp to be submitted
+<Row> 
              <h3> 3 Role Descriptions </h3>
             <CardGroup style={{color:"black"}}> 
                 <Card className="full-stack-developer" >
@@ -55,8 +60,5 @@ function About(){
                 
             </CardGroup>
         </Row>
-        </div>
-    );
-}
-
+*/
 export default About;
