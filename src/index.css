@@ -147,7 +147,8 @@ div.project:hover{
 }
 
 .component-header{
-  color: #FFF3D9
+  color: #FFF3D9;
+  top: 500px;
 }
 
 .subheader{
@@ -193,6 +194,15 @@ div.project:hover{
 
 .programmer-list-item{
   color: black; 
+}
+
+/* contact component */
+
+.contact-page-div{
+  background-image: url(assets/john-towner-p-rN-n6Miag-unsplash.jpeg);
+  background-size: cover;  
+  height: 800px;
+  width:800px;
 }
 
 /* Media Query Section for Responsiveness */

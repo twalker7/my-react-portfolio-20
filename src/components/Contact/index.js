@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact(props){
     return(
-        <div>
+        <div className="contact-page-div">
             <h2 className="component-header"> Get In Touch With Me Using the Links Below! </h2>
            
         </div>
