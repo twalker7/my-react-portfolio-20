@@ -2,10 +2,14 @@ import React from 'react';
 
 function Contact(props){
     return(
-        <div className="contact-page-div">
-            <h2 className="contact-header"> Get In Touch With Me Using the Links Below! </h2>
+        <div>
+            
+            <div className="contact-page-div">
            
         </div>
+        <h2 className="contact-header"> Connect With Me Using the Links Below! </h2>
+        </div>
+        
     );
 }
 
