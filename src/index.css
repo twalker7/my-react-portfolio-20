@@ -71,11 +71,7 @@ div.project:hover{
 }
 
 
-.contact-form{
-  border: #FFF3D9 5px solid;
-  border-radius: 10%;
-  width: 250px;
-}
+
 
 .profile-image{
   height: 300px;
@@ -151,6 +147,7 @@ div.project:hover{
   top: 500px;
 }
 
+
 .subheader{
   font-size: 15px;
 }
@@ -197,12 +194,18 @@ div.project:hover{
 }
 
 /* contact component */
+.contact-header{
+  color: #FFF3D9;
+  
+}
 
 .contact-page-div{
   background-image: url(assets/john-towner-p-rN-n6Miag-unsplash.jpeg);
   background-size: cover;  
   height: 800px;
   width:800px;
+  display: flex;
+  justify-content: left;
 }
 
 /* Media Query Section for Responsiveness */
