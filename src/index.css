@@ -202,9 +202,8 @@ div.project:hover{
 .contact-page-div{
   background-image: url(assets/john-towner-p-rN-n6Miag-unsplash.jpeg);
   background-size: cover;  
-  height: 400px;
-  display: flex;
-  justify-content: center;
+  height: 400px; 
+  
   
 }
 
@@ -260,5 +259,5 @@ div.project:hover{
 /* contact page component */
 
 .contact-page-div{
-  width: 80vw; 
+  width: 100vw; 
 }
