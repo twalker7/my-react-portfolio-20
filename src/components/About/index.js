@@ -27,14 +27,9 @@ function About(){
                  </h6>  
            </div>
          </Row>
-         
-        </div>
-    );
-}
-/* Temporarily removed 3-card description of duties -- withheld for mvp to be submitted
-<Row> 
-             <h3> 3 Role Descriptions </h3>
-            <CardGroup style={{color:"black"}}> 
+
+         <Row> 
+            <CardGroup className="card-group-roles"> 
                 <Card className="full-stack-developer" >
                     <Card.Title > Full Stack Developer </Card.Title>
                     <Card.Body >
@@ -43,22 +38,30 @@ function About(){
                             <li className="fullstack-list-item"> abc </li>
                             <li className="fullstack-list-item"> abc </li>
                             <li className="fullstack-list-item"> abc </li>
-                           
-                            
-                            
                             
                         </ul>
                     </Card.Body>
                 </Card>
                 <Card className="programmer">
                     <Card.Title> Programmer </Card.Title>
+                    <Card.Body >
+                        <ul>
+                            <li className="fullstack-list-item"> abc </li>
+                            <li className="fullstack-list-item"> abc </li>
+                            <li className="fullstack-list-item"> abc </li>
+                            <li className="fullstack-list-item"> abc </li>
+                            
+                        </ul>
+                    </Card.Body>
                 </Card>
-                <Card className="consultant ">
-                    <Card.Title> Consultant </Card.Title>
-
-                </Card>
+                
                 
             </CardGroup>
         </Row>
-*/
+
+         
+        </div>
+    );
+}
+
 export default About;

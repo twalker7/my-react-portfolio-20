@@ -130,6 +130,10 @@ div.project:hover{
   
 }
 
+.card-group-projects{
+  color : #000;
+   width: 800px
+}
 
 .form-field .message-field{
   margin: 5px;
@@ -158,8 +162,12 @@ div.project:hover{
   background-color: white;
 }
 
+/* About Component */
+
 .about-description{
   color: #FFF3D9;
+  width: 800px;
+  margin: 80px;
 }
 
 .form-labels{
@@ -179,18 +187,17 @@ div.project:hover{
 }
 
 
-.about-description{
-  width: 800px;
-  margin: 80px;
- 
-}
-
 .fullstack-list-item{
   color: black;
 }
 
 .programmer-list-item{
   color: black; 
+}
+
+.card-group-roles{
+  color : #000;
+   width: 800px
 }
 
 /* contact component */
@@ -230,7 +237,7 @@ div.project:hover{
     
 
   }
-  .card-group{
+  .card-group-projects{
     width: 400px !important ;
   
     
