@@ -30,8 +30,11 @@ function About(){
 
          <Row> 
             <CardGroup className="card-group-roles"> 
+           
                 <Card className="full-stack-developer" >
+                <h6> SYMBOL </h6> 
                     <Card.Title > Full Stack Developer </Card.Title>
+                    <Card.Subtitle> Vanilla JS, MERN Stack</Card.Subtitle>
                     <Card.Body >
                         <ul>
                             <li className="fullstack-list-item"> abc </li>
@@ -43,7 +46,9 @@ function About(){
                     </Card.Body>
                 </Card>
                 <Card className="programmer">
+                <h6> SYMBOL </h6> 
                     <Card.Title> Programmer </Card.Title>
+                    <Card.Subtitle> Vanilla JS, MERN Stack</Card.Subtitle>
                     <Card.Body >
                         <ul>
                             <li className="fullstack-list-item"> abc </li>
