@@ -35,8 +35,8 @@ function App() {
   return (
     <div className="App">
       <Header currentPage = {currentPage} setCurrentPage = {setCurrentPage}> 
-      <h1> {currentPage}</h1> </Header>
-      {console.log(currentPage)}
+        <h1> {currentPage}</h1> 
+      </Header>
       <main className="main-back">
         {changePage()}
   
