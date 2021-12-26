@@ -71,14 +71,12 @@ div.project:hover{
 }
 
 
-
-
 .profile-image{
   height: 300px;
   width: 400px;
   float: left;
   margin-right: 15px;
-  border: #FFF3D9 5px solid;
+  border-radius:20px;
   
 }
 
