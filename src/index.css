@@ -204,6 +204,11 @@ div.project:hover{
 
 }
 
+/* footer */ 
+
+.footer{
+  background-color: #282c34; 
+}
 
 
 /* Media Query Section for Responsiveness */
