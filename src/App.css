@@ -14,7 +14,8 @@
 }
 
 .main-back {
-  background-color: #A1CCA5; 
+  background-image: url(/src/assets/lucas-benjamin-wQLAGv4_OYs-unsplash.jpg);
+  background-color: #010c02; 
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 .App-link {

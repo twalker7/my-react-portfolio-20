@@ -79,7 +79,7 @@ div.project:hover{
   float: left;
   margin-right: 15px;
   border: #FFF3D9 5px solid;
-  opacity: .8;
+  
 }
 
 #resume{
@@ -175,7 +175,7 @@ div.project:hover{
 }
 
 .header-element{
-  background-color: #A1CCA5;
+  background-color: #282c34;
 }
 
 
@@ -200,11 +200,8 @@ div.project:hover{
 }
 
 .contact-page-div{
-  background-image: url(assets/john-towner-p-rN-n6Miag-unsplash.jpeg);
   background-size: cover;  
-  height: 400px; 
-  
-  
+
 }
 
 
