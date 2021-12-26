@@ -143,7 +143,7 @@ div.project:hover{
 
 .component-header{
   color: #FFF3D9;
-  top: 500px;
+
 }
 
 
@@ -213,6 +213,9 @@ div.project:hover{
 /* Media Query Section for Responsiveness */
 
 @media only screen and (max-width: 600px) {
+  /* header */ 
+
+
  /*resume component */
   #resume{
     width: 500px;
