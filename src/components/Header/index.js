@@ -6,7 +6,7 @@ function Header(props){
     return(
         
         <header className="header-element">
-        <h1 className="component-header">
+        <h1 className="component-title">
            Thomas Walker
            <p className = "subheader"> Full Stack Developer (MERN)</p>
            <p className = "subheader"> Java, MySQL, Python, C++, TypeScript </p>
