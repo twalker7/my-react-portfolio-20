@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio-20/static/css/main.aead19a3.chunk.css",
-    "main.js": "/my-react-portfolio-20/static/js/main.6c2aa032.chunk.js",
-    "main.js.map": "/my-react-portfolio-20/static/js/main.6c2aa032.chunk.js.map",
+    "main.css": "/my-react-portfolio-20/static/css/main.1dac4574.chunk.css",
+    "main.js": "/my-react-portfolio-20/static/js/main.9175604a.chunk.js",
+    "main.js.map": "/my-react-portfolio-20/static/js/main.9175604a.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio-20/static/js/runtime-main.dd81ac4f.js",
     "runtime-main.js.map": "/my-react-portfolio-20/static/js/runtime-main.dd81ac4f.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/my-react-portfolio-20/static/css/2.d8cb5cde.chunk.css",
@@ -12,21 +12,21 @@
     "static/js/3.f930e8b6.chunk.js.map": "/my-react-portfolio-20/static/js/3.f930e8b6.chunk.js.map",
     "index.html": "/my-react-portfolio-20/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/my-react-portfolio-20/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.aead19a3.chunk.css.map": "/my-react-portfolio-20/static/css/main.aead19a3.chunk.css.map",
+    "static/css/main.1dac4574.chunk.css.map": "/my-react-portfolio-20/static/css/main.1dac4574.chunk.css.map",
     "static/js/2.3ef3ec5a.chunk.js.LICENSE.txt": "/my-react-portfolio-20/static/js/2.3ef3ec5a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/my-react-portfolio-20/static/media/4.47d9ae90.jpeg",
     "static/media/App.css": "/my-react-portfolio-20/static/media/lucas-benjamin-wQLAGv4_OYs-unsplash.5329aa31.jpg",
     "static/media/luhn-formula-credit-card-validator.jpeg": "/my-react-portfolio-20/static/media/luhn-formula-credit-card-validator.4d1eda46.jpeg",
     "static/media/palindrome-code-snippet.jpeg": "/my-react-portfolio-20/static/media/palindrome-code-snippet.13ffc804.jpeg",
     "static/media/ravi-kumar-unsplash.jpg": "/my-react-portfolio-20/static/media/ravi-kumar-unsplash.62ccc869.jpg",
-    "static/media/software-engineer-resume-thomaswalker.pdf": "/my-react-portfolio-20/static/media/software-engineer-resume-thomaswalker.02dfac2a.pdf",
-    "static/media/software-engineer-resume-thomaswalker.jpeg": "/my-react-portfolio-20/static/media/software-engineer-resume-thomaswalker.1738abaa.jpeg"
+    "static/media/software-engineer-resume-12-28-21.png": "/my-react-portfolio-20/static/media/software-engineer-resume-12-28-21.63e73e4b.png",
+    "static/media/software-engineer-resume-12-28-21.pdf": "/my-react-portfolio-20/static/media/software-engineer-resume-12-28-21.c8a144e4.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.dd81ac4f.js",
     "static/css/2.d8cb5cde.chunk.css",
     "static/js/2.3ef3ec5a.chunk.js",
-    "static/css/main.aead19a3.chunk.css",
-    "static/js/main.6c2aa032.chunk.js"
+    "static/css/main.1dac4574.chunk.css",
+    "static/js/main.9175604a.chunk.js"
   ]
 }
