@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio-20/static/css/main.1dac4574.chunk.css",
-    "main.js": "/my-react-portfolio-20/static/js/main.9175604a.chunk.js",
-    "main.js.map": "/my-react-portfolio-20/static/js/main.9175604a.chunk.js.map",
+    "main.css": "/my-react-portfolio-20/static/css/main.1e1dc08d.chunk.css",
+    "main.js": "/my-react-portfolio-20/static/js/main.814d0cd5.chunk.js",
+    "main.js.map": "/my-react-portfolio-20/static/js/main.814d0cd5.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio-20/static/js/runtime-main.dd81ac4f.js",
     "runtime-main.js.map": "/my-react-portfolio-20/static/js/runtime-main.dd81ac4f.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/my-react-portfolio-20/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.3ef3ec5a.chunk.js": "/my-react-portfolio-20/static/js/2.3ef3ec5a.chunk.js",
-    "static/js/2.3ef3ec5a.chunk.js.map": "/my-react-portfolio-20/static/js/2.3ef3ec5a.chunk.js.map",
+    "static/js/2.8cd121fd.chunk.js": "/my-react-portfolio-20/static/js/2.8cd121fd.chunk.js",
+    "static/js/2.8cd121fd.chunk.js.map": "/my-react-portfolio-20/static/js/2.8cd121fd.chunk.js.map",
     "static/js/3.f930e8b6.chunk.js": "/my-react-portfolio-20/static/js/3.f930e8b6.chunk.js",
     "static/js/3.f930e8b6.chunk.js.map": "/my-react-portfolio-20/static/js/3.f930e8b6.chunk.js.map",
     "index.html": "/my-react-portfolio-20/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/my-react-portfolio-20/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.1dac4574.chunk.css.map": "/my-react-portfolio-20/static/css/main.1dac4574.chunk.css.map",
-    "static/js/2.3ef3ec5a.chunk.js.LICENSE.txt": "/my-react-portfolio-20/static/js/2.3ef3ec5a.chunk.js.LICENSE.txt",
+    "static/css/main.1e1dc08d.chunk.css.map": "/my-react-portfolio-20/static/css/main.1e1dc08d.chunk.css.map",
+    "static/js/2.8cd121fd.chunk.js.LICENSE.txt": "/my-react-portfolio-20/static/js/2.8cd121fd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/my-react-portfolio-20/static/media/4.47d9ae90.jpeg",
     "static/media/App.css": "/my-react-portfolio-20/static/media/lucas-benjamin-wQLAGv4_OYs-unsplash.5329aa31.jpg",
     "static/media/luhn-formula-credit-card-validator.jpeg": "/my-react-portfolio-20/static/media/luhn-formula-credit-card-validator.4d1eda46.jpeg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.dd81ac4f.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.3ef3ec5a.chunk.js",
-    "static/css/main.1dac4574.chunk.css",
-    "static/js/main.9175604a.chunk.js"
+    "static/js/2.8cd121fd.chunk.js",
+    "static/css/main.1e1dc08d.chunk.css",
+    "static/js/main.814d0cd5.chunk.js"
   ]
 }
