@@ -72,7 +72,7 @@ height: 1000px;
   width: 250px;
   margin: 10px;
   padding: 20px;
-  border: #FFF3D9 5px solid;
+  border: rgb(255, 255, 255, .5) 5px solid;
   border-radius: 15%;
   
 }
