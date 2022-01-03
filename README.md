@@ -56,4 +56,4 @@ React's testing libraries:
 
  ## Application Page link: 
 
-https://twalker7.github.io/my-react-portfolio-20/
+https://my-portfolio-react-20.herokuapp.com/
