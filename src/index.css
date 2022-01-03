@@ -44,7 +44,7 @@ ul{
 }
 
 /* nav element spacing through li margins  */
-li{
+.nav-list-item{
   margin-right: 80px;
   margin-left: 80px;
   color: white;
@@ -262,10 +262,23 @@ div.project:hover{
     height:250px;
   }
 
-}
-
-/* contact page component */
+  /* contact page component */
 
 .contact-page-div{
   width: 100vw; 
 }
+
+/* Nav bar */ 
+
+
+.flex-row{
+  font-size:15px;
+
+}
+
+.nav-list-item{
+  margin: 0 0 0 15px;
+}
+
+}
+
