@@ -68,6 +68,7 @@ function Project(){
           })}  
             </ul>
             </Row>
+            <br></br>
             <Row>
             <h2 style={{color : "#FFFFF" }} > Algorithm Samples </h2> 
             </Row>
