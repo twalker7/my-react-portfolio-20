@@ -1,25 +1,30 @@
 import React from 'react';
 import Nav from '../Nav';
+import {Row, Col} from 'react-bootstrap';
 
 
 function Header(props){
     return(
         
-        <header className="header-element">
-        <h1 className="component-title">
-           Thomas Walker
-           <p className = "subheader"> Full Stack Developer (MERN)</p>
-           <p className = "subheader"> Java, MySQL, Python, C++, TypeScript </p>
+      <header >
+          
+          <div className="header-component-title component-title">
+          <h1>
+          Full Stack Developer 
+          </h1>
+           <h3 > Thomas Walker </h3>
+           <h5 className = "subheader">MERN Stack, Java, MySQL, Python, C++ </h5>
        
-      </h1>
+        </div>
+        <div className="header-element">
       
-      <h2>
-        <Nav setCurrentPage = {props.setCurrentPage} > </Nav>
-      </h2>
+        <h2>
+          <Nav setCurrentPage = {props.setCurrentPage} > </Nav>
+        </h2>
+      
+        </div>
     
-      
     
-      
       </header> 
     );
 }

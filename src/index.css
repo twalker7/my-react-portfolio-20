@@ -14,10 +14,24 @@ code {
     monospace;
 }
 
-header{
+.header-element{
   display: flex;
   flex-wrap: wrap;
+  background-color: #011d23;
+
 }
+
+.header-component-title{
+  margin-bottom: -10px;
+  padding-bottom: 25px;
+}
+
+.component-title{
+  color: #FFFFFF;
+  background-color: #011d23;
+  
+}
+
 
 .flex-row {
   display: flex;
@@ -65,11 +79,8 @@ height: 1000px;
 
 div.project:hover{
   opacity: .7;
-  
- 
  
 }
-
 
 .profile-image{
   height: 300px;
@@ -141,10 +152,6 @@ div.project:hover{
   
 }
 
-.component-title{
-  color: #FFFFFF;
-
-}
 
 
 .subheader{
@@ -171,10 +178,6 @@ div.project:hover{
  font-size: 15px !important;
 }
 
-.header-element{
-  background-color: #011d23;
-
-}
 
 
 .about-description{
@@ -207,7 +210,7 @@ div.project:hover{
 
 .footer{
   background-color: #011d23;
-  
+  margin: 0px;
 }
 
 

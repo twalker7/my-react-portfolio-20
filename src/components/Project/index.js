@@ -69,7 +69,7 @@ function Project(){
             </ul>
             </Row>
             <Row>
-            <h2 style={{color : "#FFF3D9" }} > Algorithm Samples </h2> 
+            <h2 style={{color : "#FFFFF" }} > Algorithm Samples </h2> 
             </Row>
             <Row>
                 <Col></Col>

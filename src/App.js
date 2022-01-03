@@ -34,12 +34,16 @@ function App() {
   }
   return (
     <div className="App">
+      
       <Header currentPage = {currentPage} setCurrentPage = {setCurrentPage}> 
         <h1> {currentPage}</h1> 
       </Header>
       <main className="main-back">
+        
+        <div>
         {changePage()}
-  
+        </div>
+        
       </main>
 
       <Footer></Footer>
