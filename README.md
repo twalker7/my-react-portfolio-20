@@ -3,7 +3,7 @@
 
 ## Description 
 
-![alt Insomnia console](src/assets/app-screenshot-resume-newest.png)
+![alt Portoflio Screeshot](src/assets/app-screenshot-resume-newest.jpeg)
 
 
 A single-page application portfolio built with React.js, containing the following sections: About Me, Projects, Resume, and Contact. 
