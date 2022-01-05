@@ -212,7 +212,8 @@ div.project:hover{
 
 .footer{
   background-color: #011d23;
-  margin: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px; 
 }
 
 .code-snippet-card{
