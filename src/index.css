@@ -37,6 +37,7 @@ code {
   display: flex;
   flex-wrap: wrap;
 }
+
 ul{
   /*remove bullets from list items*/
   list-style-type: none; 
