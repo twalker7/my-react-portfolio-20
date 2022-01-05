@@ -18,13 +18,13 @@ function About(){
           <Row>
                
            <div className="about-description-container"> 
-                <h6 className="about-description"> 
+                <h4 className="about-description"> 
             
                 Full Stack Web Developer with experience in multiple programming languages 
                 and a passion for problem-solving. A chess teacher with strong communication 
                 skills and a collaborative spirit, experienced in handling and conveying complex 
                 technical concepts. Polished analytical skills for effective debugging and algorithm design.             
-                 </h6>  
+                 </h4>  
            </div>
          </Row>
          
