@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(){
     return(
-        <h5 className="footer"> 
+        <h6 className="footer"> 
              <a className="component-title" target="_blank" rel="noreferrer" href="mailto: twalker@onetechadvanced.com"> twalker@onetechadvanced.com </a>
              <br/> <br/>
             <div>
@@ -16,7 +16,7 @@ function Footer(){
                 
             </a> 
             </div>
-        </h5>
+        </h6>
     );
 }
 
