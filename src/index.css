@@ -141,12 +141,17 @@ div.project:hover{
   
 }
 
-
-.form-field .message-field{
-  margin: 5px;
-  width: 200px;
-  color: #FFF3D9;
+.project-info-box{
+margin-top:200px;
+  
 }
+.project-description{
+  font-size: small;
+  color: #948155;
+  background-color: white;
+}
+
+
 
 .message-field{
   width: 200px;
@@ -159,11 +164,6 @@ div.project:hover{
   font-size: 15px;
 }
 
-.project-description{
-  font-size: small;
-  color: #948155;
-  background-color: white;
-}
 
 
 

@@ -59,9 +59,13 @@ function Project(){
               return (
                 <li> 
                     <div className="project" id ={`project${i + 1}`}>
-                        <h4><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>  </h4>
+                      
+                       
+                         
+                            <h4><a href={project.link} target="_blank" rel="noreferrer">{project.title}</a>  </h4>
                         <h6><p className="project-repo"> <a href={project.repo} target="_blank" rel="noreferrer"> Repository Link</a></p> </h6>
                         <p className = "project-description"> {project.description} </p>
+                        
                     </div>
                 </li>
             )
@@ -106,6 +110,10 @@ function Project(){
         </div>
     );
 }
-
-
+ 
 export default Project; 
+
+/* removed from around the project div in loop return
+<div className="project-info-box">
+</div> 
+*/
