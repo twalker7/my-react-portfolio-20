@@ -97,7 +97,7 @@ function Project(){
                             Palindrome Detector
                         </Card.Title>
                         <Card.Img className="code-snippet-image" src ={require(`../../assets/palindrome-code-snippet.jpeg`).default} alt="code snippet"/>
-                        <Card.Text style={{fontSize:"10px"}}> A palindrome detection program that takes four strings and returns the amount of are palindromes among them. </Card.Text>
+                        <Card.Text style={{fontSize:"10px"}}> A palindrome detection program that takes four strings and returns the amount of palindromes among them. </Card.Text>
                     </Card.Body>        
                 </Card>
                 
