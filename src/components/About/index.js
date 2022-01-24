@@ -21,7 +21,7 @@ function About(){
                 <h5 className="about-description"> 
             
                 Full Stack Web Developer with experience in multiple programming languages 
-                and a passion for problem-solving. A chess teacher with strong communication 
+                and a passion for problem-solving. A chess teacher with excellent communication 
                 skills and a collaborative spirit, experienced in handling and conveying complex 
                 technical concepts. Polished analytical skills for effective debugging and algorithm design.             
                  </h5>  
