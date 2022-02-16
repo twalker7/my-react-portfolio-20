@@ -11,7 +11,7 @@ function About(){
           
                 <Col></Col> 
                 <Col>             
-                    <img className="profile-image " src ={require(`../../assets/ravi-kumar-unsplash.jpg`).default} alt="headshot"/>
+                    <img className="profile-image " src ={require(`../../assets/ravi-kumar-unsplash.jpg`).default} alt="chess-illustration"/>
                 </Col> 
                 <Col></Col>
             </Row>
